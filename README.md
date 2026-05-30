@@ -1,5 +1,7 @@
 # Cross-Language Token Efficiency on Claude Opus 4.8
 
+**English** | [日本語](README.ja.md)
+
 Does an LLM really use fewer tokens in English? This repo measures how many **output tokens** Claude Opus 4.8 spends to produce the **same summary content** in English, Japanese, and Chinese — and contains the raw data, the script, and the source texts so you can reproduce it.
 
 **Short answer:** For an equal amount of information, **English is the most token-efficient.** Japanese costs ~1.23× and Chinese ~1.29× the output tokens of English for the same content.
