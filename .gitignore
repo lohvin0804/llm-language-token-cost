@@ -1,0 +1,16 @@
+# macOS
+.DS_Store
+
+# Local backups / scratch (stale data, not part of the published experiment)
+bk/
+*.bak
+
+# Internal blog-writing notes — not part of the published evidence
+BLOG_HANDOFF.md
+
+# Secrets — the script reads ANTHROPIC_API_KEY from the environment.
+# Never commit a key. These patterns catch common accidental commits.
+.env
+.env.*
+*.key
+secrets*

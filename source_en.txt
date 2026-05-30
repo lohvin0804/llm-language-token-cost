@@ -1,0 +1,47 @@
+Trustworthy AI Systems
+
+Anthropic was founded to create the world's safest and most capable large language model. Claude is Anthropic's frontier, state-of-the-art large language models that offers important features for enterprises like advanced reasoning, vision analysis, code generation, and multilingual processing.
+
+Benefits
+
+Up to 1M token context window (preview)
+
+By default, Anthropic's Claude models have a 200,000 token context window enabling you to relay a large volume of information to Claude. This translates to roughly 150,000 words, or over 500 pages of material. Sonnet 4 and 4.5 now offers an expanded context length of 1 million tokens (preview). This allows for large-scale code analysis, lengthy document synthesis, and the creation of more sophisticated context-aware agents that can maintain coherence across hundreds of tool calls and multi-step workflows, including complete API documentation and interaction histories.
+
+Intelligence
+
+Claude exhibits near-human levels of comprehension and fluency on complex tasks, leading the frontier of general intelligence. Claude can be used for sophisticated dialogue, nuanced creative content generation, complex reasoning, math, coding, and scientific queries. It can edit, rewrite, summarize, classify, extract structured data, perform Q&A based on provided content, and more. Claude models offer increased steerability, giving users more control, and produce predictable, high-quality outputs. In practical business scenarios, Claude can help financial analysts analyze complex financial reports, identify key trends, and generate insightful summaries for stakeholders. Marketing teams can leverage Claude's exceptional writing skills to craft compelling ad copy, product descriptions, and social media content that resonates with target audiences. Healthcare professionals can employ Claude to quickly summarize patient records, identify potential drug interactions, and assist in diagnostic processes. Legal firms can use Claude to efficiently review and summarize lengthy legal documents, identify relevant precedents, and draft initial contract templates.
+
+Vision
+
+Claude offers best-in-class vision capabilities compared to other leading models. It can accurately transcribe text from imperfect images—a core capability for retail, logistics, and financial services, where AI may glean more insights from an image, graphic, or illustration than from text alone. The latest Claude models demonstrate a strong aptitude for understanding a wide range of visual formats, including photos, charts, graphs and technical diagrams. With Claude, you can extract more insights from documents, process web UI and diverse product documentation, generate image catalog metadata, and more.
+
+Speed
+
+Claude 3.5 Haiku is fast and cost-effective for its intelligence category, excelling at complex tasks demanding rapid responses like knowledge retrieval or sales automation. With new latency-optimized inference available in public preview, enterprises can achieve even faster response times for their mission-critical AI applications without compromising quality.
+
+Frontier AI safety features
+
+Claude is based on Anthropic's leading safety research, and built with techniques including Constitutional AI. With industry-leading resistance to jailbreaks and misuse, Claude is designed to reduce brand risk, and aims to be helpful, honest, and harmless.
+
+Use cases
+
+Customer service
+
+Claude can act as an always-on virtual sales representative, ensure speedy and friendly resolution to service requests, and increase customer satisfaction.
+
+Operations
+
+Claude can extract relevant information from business emails and documents, categorize and summarize survey responses, and wrangle reams of text with high speed and accuracy.
+
+Legal
+
+Claude is able to parse legal documents and answer questions about them, so lawyers can reduce costs and focus on higher-level work.
+
+Insurance
+
+Claude can help insurance agents make faster, better claims decisions by providing insights across customer conversations, claims documents, and policies.
+
+Coding
+
+Claude can help boost developer productivity by assisting with in-line code generation, debugging, and having natural-language conversation to help developers understand existing code.
