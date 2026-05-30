@@ -18,6 +18,8 @@ Average output tokens per **target** language, with every summary carrying rough
 | 🇯🇵 Japanese | 851 | 1.23× | ~890–955 characters |
 | 🇨🇳 Chinese  | 888 | 1.29× | ~865–936 characters |
 
+![Average output tokens per target language: English 690, Japanese 851, Chinese 888](output_tokens_by_language.svg)
+
 The cost is driven by the **output** language, not the input language — generating English was cheapest regardless of what language was read.
 
 Full per-run data is in [`results.csv`](results.csv).
@@ -46,6 +48,7 @@ With content held constant, the real result emerges: English encodes a given amo
 | [`opus48_runner.sh`](opus48_runner.sh) | The experiment driver — zsh + `curl` + `jq`. Loops the 9 patterns, calls the Anthropic API, logs tokens/cost to CSV. |
 | [`results.csv`](results.csv) | Raw data, one row per pattern: input/output tokens, thinking chars, response chars/runes/words, elapsed time, full response text. |
 | `source_en.txt` / `source_ja.txt` / `source_zh.txt` | The input corpus — the same content (AWS "Claude on Amazon Bedrock" product copy) in three languages, trimmed to the sections common to all three. |
+| `make_chart.py` | Dependency-free script that regenerates the results chart (`output_tokens_by_language.svg`) from the data. |
 
 ## Reproduce it
 
